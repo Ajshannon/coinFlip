@@ -1,7 +1,12 @@
 body {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     border: 2px solid red;
     text-align: center;
+}
+#table {
+    flex-direction: row;
 }
 #main {
     display: flex;
@@ -16,3 +21,5 @@ body {
     flex-basis: 1;
     border: 2px solid green;
 }
+
+
