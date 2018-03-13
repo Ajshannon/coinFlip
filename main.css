@@ -1,0 +1,18 @@
+body {
+    justify-content: center;
+    border: 2px solid red;
+    text-align: center;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 90%;
+    margin: 10%;
+    justify-content: center;
+    border: 2px solid blue;
+}
+.coin {
+    flex-basis: 1;
+    border: 2px solid green;
+}
